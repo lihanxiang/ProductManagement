@@ -1,4 +1,4 @@
-package domain;
+package product;
 
 public class Product {
     private String barcode;

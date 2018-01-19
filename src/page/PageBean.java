@@ -1,8 +1,8 @@
-package domain;
+package page;
 
 import java.util.List;
 
-public class PageBean {
+public class PageBean<Object> {
     private int pageCode;           //页码
     private int pageRecord;         //每一页的记录数
     private int totalPage;          //总页数
