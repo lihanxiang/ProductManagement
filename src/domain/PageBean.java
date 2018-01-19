@@ -27,8 +27,9 @@ public class PageBean {
     public void setTotalPage(int totalPage) {
         this.totalPage = totalPage;
     }
-    public int getTotalPage(){
-        return totalPage;
+    public int getTotalPage(){         //getTotalPage需要另行计算，例如一页10个记录，总共11个记录就需要2页
+        totalPage = totalRecord / pageRecord;
+        return totalRecord % pageRecord == 0 ? totalPage : totalRecord + 1;
     }
 
     public void setTotalRecord(int totalRecord) {
