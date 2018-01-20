@@ -1,6 +1,7 @@
 USE product;
 CREATE TABLE product (
-    barcode CHAR(13) NOT NULL PRIMARY KEY,
+    id	varchar(50)	not null primary key,
+    barcode CHAR(13) NOT NULL,
     name VARCHAR(40) NOT NULL,
     units VARCHAR(5) NOT NULL,
     purchase_price VARCHAR(10) NOT NULL,
