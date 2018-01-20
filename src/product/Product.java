@@ -1,12 +1,20 @@
 package product;
 
 public class Product {
+    private String id;
     private String barcode;
     private String name;
     private String units;
     private String purchasePrice;
     private String salePrice;
     private String inventory;
+
+    public void setId(String id) {
+        this.id = id;
+    }
+    public String getId() {
+        return id;
+    }
 
     public void setBarcode(String barcode) {
         this.barcode = barcode;
