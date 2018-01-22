@@ -13,7 +13,7 @@
 </head>
 <body>
     <h3 align="center">编辑商品</h3>
-    <form style="width: 50%" action="<c:url value="/ProductServlet"/> " method="post">
+    <form  action="<c:url value="/ProductServlet"/> " style="width: 50%" method="post">
         <input type="hidden" name="method" value="edit"/>
         <input type="hidden" name="id" value="${product.id}">
         <table border="0" align="center" width="50%">
