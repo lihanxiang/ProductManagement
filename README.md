@@ -10,14 +10,14 @@
 
 ### Development process：
 
-1. Build Packages:  
+<br/>1. Build Packages:  
 > dao  
 > page  
 > product  
 > service  
 > servlet
 
-2. Import JAR File
+<br/>2. Import JAR File
 > c3p0-0.9.5.2  
 >commons-beanutils-1.9.3  
 >commons-collections-3.2.2  
@@ -30,7 +30,7 @@
 >mysql-connector-java-5.0.8-bin  
 >servlet-api  
 
-3. Create Table    
+<br/>3. Create Table    
 >   USE product;   
 >   CREATE TABLE product (  
 >   id VARCHAR(50) NOT NULL PRIMARY KEY,<br>
@@ -42,16 +42,16 @@
     inventory VARCHAR(20) NOT NULL<br>
 >);
 
-4. Programming Environment
+<br/>4. Programming Environment
 >IntellijIDEA Ultimate + MySQL
 
-5. How to use
+<br/>5. How to use
 > 1.Clone or download project [https://github.com/lihanxiang/ProductManagement.git](https://github.com/lihanxiang/ProductManagement.git)
 ><br/>2.Open in IDEA, configure web information
 ><br/>3.Deploy it to the Tomcat
 ><br/>4.Run, open browser and input **localhost:8080**
 
-6. What can it do
+<br/>6. What can it do
 >Add product information  
 ><br/>Edit product information  
 ><br/>Delete product information  
@@ -86,7 +86,7 @@
 
 ### 开发流程：
 
-1. 建包  
+<br/>1. 建包  
 > dao  
 > demo  
 > page  
@@ -94,7 +94,7 @@
 > service  
 > servlet  
 
-2. 导入 JAR 文件
+<br/>2. 导入 JAR 文件
 > c3p0-0.9.5.2  
 >commons-beanutils-1.9.3  
 >commons-collections-3.2.2  
@@ -107,7 +107,7 @@
 >mysql-connector-java-5.0.8-bin  
 >servlet-api  
 
-3. 建表  
+<br/>3. 建表  
 >USE product;  
 >CREATE TABLE product (  
 >   id VARCHAR(50) NOT NULL PRIMARY KEY,<br>
@@ -119,20 +119,20 @@
     inventory VARCHAR(20) NOT NULL<br>
 >);
 
-4. 编程环境
+<br/>4. 编程环境
 >IntellijIDEA Ultimate + MySQL
 
-5. 如何使用
+<br/>5. 如何使用
 > 1.Clone or download project [https://github.com/lihanxiang/ProductManagement.git](https://github.com/lihanxiang/ProductManagement.git)
 ><br/>2.在IDEA中打开项目,配置web项目信息（科学上网）
 ><br/>3.部署到Tomcat（科学上网）
 ><br/>4.Run, 打开浏览器并输入地址： **localhost:8080**
 
-6. 功能介绍
+<br/>6. 功能介绍
 >添加商品信息  
 ><br/>编辑商品信息  
 ><br/>删除商品信息  
 ><br/>显示所有商品信息  
 ><br/>查找商品信息  
 
-### 项目的截图在上方的**Project screenshot**中
+### 项目的截图在上方的**Project screenshot**中  
