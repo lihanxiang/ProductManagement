@@ -2,13 +2,13 @@
 
 ## A simple product management system can do some basic things
 
-####后有中文介绍
+#### 后有中文介绍
 
-###Project Structure：
+### Project Structure：
 > Servlet + JSP + MySQL
 > MVC(Model–View–Controller)
 
-###development process：
+### development process：
 
 1. Build Packages:  
 > dao  
@@ -59,7 +59,7 @@
 ><br/>Show all product information
 ><br/>Search for product information
 
-###Project screenshot：
+### Project screenshot：
 ![](http://upload-images.jianshu.io/upload_images/3426615-79022732f97f8e2a.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ![](http://upload-images.jianshu.io/upload_images/3426615-f2b03a3c915892c4.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -78,14 +78,14 @@
 
 # 商品信息管理系统
 
-##一个简易的能执行基本操作的管理系统（首个web项目）
+## 一个简易的能执行基本操作的管理系统（首个web项目）
 源代码中有极其详细的注解
 
-###项目结构：
+### 项目结构：
 > Servlet + JSP + MySQL
 > MVC模式
 
-###开发流程：
+### 开发流程：
 
 1. 建包  
 > dao
@@ -137,4 +137,4 @@
 ><br/>显示所有商品信息
 ><br/>查找商品信息
 
-###项目的截图在上方的**Project screenshot**中
+### 项目的截图在上方的**Project screenshot**中
