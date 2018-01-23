@@ -32,7 +32,7 @@
 
 3. Create Table    
 >   USE product;   
->   CREATE TABLE product (
+>   CREATE TABLE product (  
 >   id VARCHAR(50) NOT NULL PRIMARY KEY,<br>
     barcode VARCHAR(13) NOT NULL,<br>
     name VARCHAR(40) NOT NULL,<br>
@@ -52,11 +52,11 @@
 ><br/>4.Run, open browser and input **localhost:8080**
 
 6. What can it do
->Add product information
-><br/>Edit product information
-><br/>Delete product information
-><br/>Show all product information
-><br/>Search for product information
+>Add product information  
+><br/>Edit product information  
+><br/>Delete product information  
+><br/>Show all product information  
+><br/>Search for product information  
 
 ### Project screenshot：
 ![](http://upload-images.jianshu.io/upload_images/3426615-79022732f97f8e2a.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -87,29 +87,29 @@
 ### 开发流程：
 
 1. 建包  
-> dao
-> demo
+> dao  
+> demo  
 > page  
 > product  
 > service  
-> servlet
+> servlet  
 
 2. 导入 JAR 文件
-> c3p0-0.9.5.2
->commons-beanutils-1.9.3
->commons-collections-3.2.2
->commons-dbutils-1.7
->commons-logging-1.2
->itcast-tools-1.4
->jsp-api
->jstl-1.2
->mchange-commons-java-0.2.11
->mysql-connector-java-5.0.8-bin
->servlet-api
+> c3p0-0.9.5.2  
+>commons-beanutils-1.9.3  
+>commons-collections-3.2.2  
+>commons-dbutils-1.7  
+>commons-logging-1.2  
+>itcast-tools-1.4  
+>jsp-api  
+>jstl-1.2  
+>mchange-commons-java-0.2.11  
+>mysql-connector-java-5.0.8-bin  
+>servlet-api  
 
 3. 建表  
->USE product;
->CREATE TABLE product (
+>USE product;  
+>CREATE TABLE product (  
 >   id VARCHAR(50) NOT NULL PRIMARY KEY,<br>
     barcode VARCHAR(13) NOT NULL,<br>
     name VARCHAR(40) NOT NULL,<br>
@@ -129,10 +129,10 @@
 ><br/>4.Run, 打开浏览器并输入地址： **localhost:8080**
 
 6. 功能介绍
->添加商品信息
-><br/>编辑商品信息
-><br/>删除商品信息
-><br/>显示所有商品信息
-><br/>查找商品信息
+>添加商品信息  
+><br/>编辑商品信息  
+><br/>删除商品信息  
+><br/>显示所有商品信息  
+><br/>查找商品信息  
 
 ### 项目的截图在上方的**Project screenshot**中
