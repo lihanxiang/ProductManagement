@@ -5,7 +5,7 @@
 #### 后有中文介绍
 
 ### Project Structure：
-> Servlet + JSP + MySQL
+> Servlet + JSP + MySQL<br>
 > MVC(Model–View–Controller)
 
 ### development process：
@@ -81,7 +81,7 @@
 源代码中有极其详细的注解
 
 ### 项目结构：
-> Servlet + JSP + MySQL
+> Servlet + JSP + MySQL<br>
 > MVC模式
 
 ### 开发流程：
