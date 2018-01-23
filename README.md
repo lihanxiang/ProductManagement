@@ -14,21 +14,21 @@
 > dao  
 > page  
 > product  
-> service
+> service  
 > servlet
 
 2. Import JAR File
-> c3p0-0.9.5.2
->commons-beanutils-1.9.3
->commons-collections-3.2.2
->commons-dbutils-1.7
->commons-logging-1.2
->itcast-tools-1.4
->jsp-api
->jstl-1.2
->mchange-commons-java-0.2.11
->mysql-connector-java-5.0.8-bin
->servlet-api
+> c3p0-0.9.5.2  
+>commons-beanutils-1.9.3  
+>commons-collections-3.2.2  
+>commons-dbutils-1.7  
+>commons-logging-1.2  
+>itcast-tools-1.4  
+>jsp-api  
+>jstl-1.2  
+>mchange-commons-java-0.2.11  
+>mysql-connector-java-5.0.8-bin  
+>servlet-api  
 
 3. Create Table    
 >   USE product;   
