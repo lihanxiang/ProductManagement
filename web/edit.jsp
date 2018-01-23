@@ -9,46 +9,46 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Edit Product</title>
 </head>
 <body>
-    <h3 align="center">编辑商品</h3>
-    <form  action="<c:url value="/ProductServlet"/> " style="width: 50%" method="post">
+    <h3 align="center">Edit Product</h3>
+    <form  action="<c:url value="/ProductServlet"/> " method="post">
         <input type="hidden" name="method" value="edit"/>
         <input type="hidden" name="id" value="${product.id}">
-        <table border="0" align="center" width="50%">
+        <table border="0" align="center" width="30%">
             <tr>
-                <td width="150px">商品条形码</td>
+                <td width="10%">Barcode</td>
                 <td width="20%">
                     <input type="text" name="barcode" value="${product.barcode}"/>
                 </td>
             </tr>
             <tr>
-                <td>商品名称</td>
+                <td>Name</td>
                 <td>
                     <input type="text" name="name" value="${product.name}"/>
                 </td>
             </tr>
             <tr>
-                <td>单位</td>
+                <td>Units</td>
                 <td>
                     <input type="text" name="units" value="${product.units}"/>
                 </td>
             </tr>
             <tr>
-                <td>进价</td>
+                <td>PurchasePrice</td>
                 <td>
                     <input type="text" name="purchasePrice" value="${product.purchasePrice}"/>
                 </td>
             </tr>
             <tr>
-                <td>售价</td>
+                <td>SalePrice</td>
                 <td>
                     <input type="text" name="salePrice" value="${product.salePrice}"/>
                 </td>
             </tr>
             <tr>
-                <td>库存</td>
+                <td>Inventory</td>
                 <td>
                     <input type="text" name="inventory" value="${product.inventory}"/>
                 </td>
@@ -56,8 +56,8 @@
             <tr>
                 <td></td>
                 <td>
-                    <input type="submit" name="添加"/>
-                    <input type="reset" name="重置"/>
+                    <input type="submit" name="submit"/>
+                    <input type="reset" name="reset"/>
                 </td>
             </tr>
         </table>
