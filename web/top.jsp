@@ -9,15 +9,15 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Home</title>
     <base target="welcome">
 </head>
 <body style="text-align: center">
 
-    <h1>商品信息管理系统</h1>
-    <a href="add.jsp" >添加商品</a>
-    <a href="<c:url value='/ProductServlet?method=showAll'/> ">显示商品</a>
-    <a href="query.jsp">查找商品</a>
+    <h1>Product Management System</h1>
+    <a href="add.jsp" >Add Product</a>
+    <a href="<c:url value='/ProductServlet?method=showAll'/> ">Show Products</a>
+    <a href="query.jsp">Find Product</a>
 
 
 </body>
