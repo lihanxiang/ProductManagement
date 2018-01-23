@@ -34,12 +34,12 @@
 >   USE product;   
 >   CREATE TABLE product (
 >   id VARCHAR(50) NOT NULL PRIMARY KEY,<br>
-    barcode VARCHAR(13) NOT NULL,
-    name VARCHAR(40) NOT NULL,
-    units VARCHAR(5) NOT NULL,
-    purchasePrice VARCHAR(10) NOT NULL,
-    salePrice VARCHAR(10) NOT NULL,
-    inventory VARCHAR(20) NOT NULL
+    barcode VARCHAR(13) NOT NULL,<br>
+    name VARCHAR(40) NOT NULL,<br>
+    units VARCHAR(5) NOT NULL,<br>
+    purchasePrice VARCHAR(10) NOT NULL,<br>
+    salePrice VARCHAR(10) NOT NULL,<br>
+    inventory VARCHAR(20) NOT NULL<br>
 >);
 
 4. Programming Environment
@@ -110,15 +110,14 @@
 3. 建表  
 >USE product;
 >CREATE TABLE product (
->>    id	VARCHAR(50)	NOT NULL PRIMARY KEY,
-    barcode VARCHAR(13) NOT NULL,
-    name VARCHAR(40) NOT NULL,
-    units VARCHAR(5) NOT NULL,
-    purchasePrice VARCHAR(10) NOT NULL,
-    salePrice VARCHAR(10) NOT NULL,
-    inventory VARCHAR(20) NOT NULL
->
-);
+>   id VARCHAR(50) NOT NULL PRIMARY KEY,<br>
+    barcode VARCHAR(13) NOT NULL,<br>
+    name VARCHAR(40) NOT NULL,<br>
+    units VARCHAR(5) NOT NULL,<br>
+    purchasePrice VARCHAR(10) NOT NULL,<br>
+    salePrice VARCHAR(10) NOT NULL,<br>
+    inventory VARCHAR(20) NOT NULL<br>
+>);
 
 4. 编程环境
 >IntellijIDEA Ultimate + MySQL
