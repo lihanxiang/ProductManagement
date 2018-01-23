@@ -33,15 +33,14 @@
 3. Create Table    
 >   USE product;   
 >   CREATE TABLE product (
->>  id VARCHAR(50) NOT NULL PRIMARY KEY,
+>   id VARCHAR(50) NOT NULL PRIMARY KEY,<br>
     barcode VARCHAR(13) NOT NULL,
     name VARCHAR(40) NOT NULL,
     units VARCHAR(5) NOT NULL,
     purchasePrice VARCHAR(10) NOT NULL,
     salePrice VARCHAR(10) NOT NULL,
     inventory VARCHAR(20) NOT NULL
->
-);
+>);
 
 4. Programming Environment
 >IntellijIDEA Ultimate + MySQL
