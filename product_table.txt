@@ -1,10 +1,10 @@
 USE product;
 CREATE TABLE product (
-    id	varchar(50)	not null primary key,
-    barcode CHAR(13) NOT NULL,
+    id	VARCHAR(50)	NOT NULL PRIMARY KEY,
+    barcode VARCHAR(13) NOT NULL,
     name VARCHAR(40) NOT NULL,
     units VARCHAR(5) NOT NULL,
-    purchase_price VARCHAR(10) NOT NULL,
-    sale_price VARCHAR(10) NOT NULL,
+    purchasePrice VARCHAR(10) NOT NULL,
+    salePrice VARCHAR(10) NOT NULL,
     inventory VARCHAR(20) NOT NULL
 );
