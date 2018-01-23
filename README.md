@@ -4,11 +4,11 @@
 
 #### 后有中文介绍
 
-### Project Structure：
+### Project structure：
 > Servlet + JSP + MySQL<br>
 > MVC(Model–View–Controller)
 
-### development process：
+### Development process：
 
 1. Build Packages:  
 > dao  
