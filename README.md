@@ -2,7 +2,7 @@
 
 ## A simple product management system can do some basic things
 
-#### [商品信息管理系统](后有中文介绍)
+#### [后有中文介绍](商品信息管理系统)
 
 ### Project Structure：
 > Servlet + JSP + MySQL
