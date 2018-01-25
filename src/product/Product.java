@@ -1,13 +1,17 @@
 package product;
 
+/*Product类为了设置数据的基本信息
+  以及数据封装而设计的
+ */
+
 public class Product {
-    private String id;
-    private String barcode;
-    private String name;
-    private String units;
-    private String purchasePrice;
-    private String salePrice;
-    private String inventory;
+    private String id;              //由CommonUtils.uuid()自动生成的唯一ID
+    private String barcode;         //条形码
+    private String name;            //名称
+    private String units;           //单位
+    private String purchasePrice;   //进价
+    private String salePrice;       //售价
+    private String inventory;       //库存
 
     public void setId(String id) {
         this.id = id;
