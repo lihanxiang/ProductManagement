@@ -2,13 +2,15 @@ package page;
 
 import java.util.List;
 
+//pageBean<Object>类是为了数据能够分页显示而设计的
+
 public class PageBean<Object> {
     private int pageCode;           //页码
-    private int pageRecord;         //每一页的记录数
+    private int pageRecord;         //页面的记录数
     private int totalPage;          //总页数
     private int totalRecord;        //总记录
-    private List<Object> beanList;  //当前页面记录
-    private String URL;
+    private List<Object> beanList;  //当前页面内容
+    private String url;
 
     public void setPageCode(int pageCode) {
         this.pageCode = pageCode;
@@ -27,9 +29,10 @@ public class PageBean<Object> {
     public void setTotalPage(int totalPage) {
         this.totalPage = totalPage;
     }
-    public int getTotalPage(){         //getTotalPage需要另行计算，例如一页10个记录，总共11个记录就需要2页
-        totalPage = totalRecord / pageRecord;
-        return totalRecord % pageRecord == 0 ? totalPage : totalRecord + 1;
+    //getTotalPage需要另行计算，例如一页10个记录，总共11个记录就需要2页
+    public int getTotalPage(){
+        totalPage = totalRecord/pageRecord;
+        return totalRecord % pageRecord == 0 ? totalPage : totalPage + 1;
     }
 
     public void setTotalRecord(int totalRecord) {
@@ -46,10 +49,10 @@ public class PageBean<Object> {
         return beanList;
     }
 
-    public void setURL(String URL) {
-        this.URL = URL;
+    public void setUrl(String url) {
+        this.url = url;
     }
-    public String getURL() {
-        return URL;
+    public String getUrl() {
+        return url;
     }
 }
