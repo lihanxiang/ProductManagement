@@ -2,8 +2,8 @@
 
 ## A simple product management system can do some basic things
 
-#### 后有中文介绍
-#### [结合此篇介绍](https://www.jianshu.com/p/737effb5ecc8)
+#### 后有中文翻译
+#### 详情请见：[商品信息系统介绍](https://www.jianshu.com/p/737effb5ecc8)
 
 ### Project structure：
 > Servlet + JSP + MySQL<br>
