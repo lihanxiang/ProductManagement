@@ -1,5 +1,5 @@
 # What is the ProductManagement?
-[![](https://travis-ci.org/Alamofire/Alamofire.svg?branch=master)](https://www.jianshu.com/p/737effb5ecc8)
+[![](http://img.shields.io/travis/lihanxiang/ProductManagement.svg)](https://www.jianshu.com/p/737effb5ecc8)
 
 ## A simple product management system can do some basic things
 
