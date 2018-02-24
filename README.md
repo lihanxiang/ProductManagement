@@ -13,7 +13,7 @@
 > Servlet + JSP + MySQL<br>
 > MVC(Model–View–Controller)
 
-![](http://upload-images.jianshu.io/upload_images/3426615-3a5c1acc7b047448.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://upload-images.jianshu.io/upload_images/3426615-cfa3d4b11fc240e8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### Development process：
 
