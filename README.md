@@ -9,6 +9,8 @@
 #### [商品信息系统介绍（简书）](https://www.jianshu.com/p/737effb5ecc8)
 #### [商品信息系统介绍（博客园）](http://www.cnblogs.com/lihanxiang/p/8446820.html)
 
+## Version0.1
+
 ### Project structure：
 > Servlet + JSP + MySQL<br>
 > MVC(Model–View–Controller)
@@ -81,12 +83,21 @@
 ### Run the demo:
 ![](http://upload-images.jianshu.io/upload_images/3426615-dc49b6932966c257.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+## Version0.2
+
+### New user interface
+
+![](http://upload-images.jianshu.io/upload_images/3426615-57ab75c1c170884b.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
 ***
 
 # 商品信息管理系统
 
 ## 一个简易的能执行基本操作的管理系统（首个web项目）
 源代码中有极其详细的注解
+
+##版本 0.1
 
 ### 项目结构：
 > Servlet + JSP + MySQL<br>
@@ -144,3 +155,9 @@
 ><br/>查找商品信息  
 
 ### 项目的截图在上方的**Project screenshot**中  
+
+## 版本0.2
+
+### 改进用户界面
+
+![](http://upload-images.jianshu.io/upload_images/3426615-57ab75c1c170884b.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
