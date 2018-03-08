@@ -13,12 +13,9 @@
     <base target="welcome">
 </head>
 <body style="text-align: center">
-
-    <h1>Product Management System</h1>
-    <a href="add.jsp" >Add Product</a>
-    <a href="<c:url value='/ProductServlet?method=showAll'/> ">Show Products</a>
-    <a href="query.jsp">Find Product</a>
-
-
+        <h1>Product Management System</h1>
+        <a href="add.jsp" >Add Product</a>
+        <a href="<c:url value='/ProductServlet?method=showAll'/> ">Show Products</a>
+        <a href="query.jsp">Find Product</a>
 </body>
 </html>
