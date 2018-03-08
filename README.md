@@ -1,5 +1,4 @@
 # What is the ProductManagement?
-[![](https://travis-ci.org/Alamofire/Alamofire.svg?branch=master)](https://www.jianshu.com/p/737effb5ecc8)
 
 ## A simple product management system can do some basic things
 
@@ -164,3 +163,5 @@ put your mouse on the botton, don't be too surprise!
 ![](http://upload-images.jianshu.io/upload_images/3426615-57ab75c1c170884b.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 鼠标悬停在按钮上有惊喜！
+
+项目代码还未完全上传
