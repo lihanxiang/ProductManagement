@@ -1,0 +1,16 @@
+table{
+    background-color: #EEE9E9;
+    border-spacing: 5px;
+}
+
+.button{
+    width: 5px;
+    height: 2px;
+    color: #8B8989;
+    background-color: #CDC9C9;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+.button:hover{
+    background-color:#696969;
+}
