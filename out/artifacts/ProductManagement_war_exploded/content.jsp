@@ -9,11 +9,12 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="css/content.css">
     <title>Product List</title>
 </head>
 <body>
     <h3 align="center">Product List</h3>
-    <table align="center" width="70%" border="1">
+    <table align="center" width="70%" border="1px">
         <tr>
             <th>Barcode</th>
             <th>Name</th>
@@ -21,7 +22,7 @@
             <th>PurchasePrice</th>
             <th>SalePrice</th>
             <th>Inventory</th>
-            <th>Behavior</th>
+            <th></th>
         </tr>
         <c:forEach items="${pageBean.beanList}" var="product">
             <tr>
@@ -32,18 +33,18 @@
                 <td>${product.salePrice}</td>
                 <td>${product.inventory}</td>
                 <td>
-                    <a href="<c:url value='/ProductServlet?method=preEdit&id=${product.id}'/> ">Edit</a>
-                    <a href="<c:url value='/ProductServlet?method=delete&id=${product.id}'/> ">Delete</a>
+                    <a class="button" href="<c:url value='/ProductServlet?method=preEdit&id=${product.id}'/> ">Edit</a>
+                    <a class="button" href="<c:url value='/ProductServlet?method=delete&id=${product.id}'/> ">Delete</a>
                 </td>
             </tr>
         </c:forEach>
     </table>
 
     <center>
-        <a href="${pageBean.url}&pageCode=1">FirstPage</a>
+        <a class="button" href="${pageBean.url}&pageCode=1">FirstPage</a>
 
         <c:if test="${pageBean.pageCode>1}">
-            <a href="${pageBean.url}&pageCode=${pageBean.pageCode-1}">PreviousPage</a>
+            <a class="button" href="${pageBean.url}&pageCode=${pageBean.pageCode-1}">PreviousPage</a>
         </c:if>
 
         <c:choose>
@@ -73,17 +74,15 @@
                     [${i}]
                 </c:when>
                 <c:otherwise>
-                    <a href="${pageBean.url}&pageCode=${i}">[${i}]</a>
+                    <a class="button" href="${pageBean.url}&pageCode=${i}">[${i}]</a>
                 </c:otherwise>
             </c:choose>
         </c:forEach>
 
-
         <c:if test="${pageBean.pageCode<pageBean.totalPage}">
-            <a href="${pageBean.url}&pageCode=${pageBean.pageCode+1}">NextPage</a>
+            <a class="button" href="${pageBean.url}&pageCode=${pageBean.pageCode+1}">NextPage</a>
         </c:if>
-        <a href="${pageBean.url}&pageCode=${pageBean.totalPage}">LastPage</a>
-
+        <a class="button" href="${pageBean.url}&pageCode=${pageBean.totalPage}">LastPage</a>
     </center>
 </body>
 </html>

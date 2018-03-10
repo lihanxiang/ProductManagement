@@ -9,57 +9,23 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="css/add.css">
     <title>Add Product</title>
 </head>
 <body>
     <h3 align="center">Add Product</h3>
     <form  action="<c:url value='/ProductServlet'/>" method="post">
         <input type="hidden" name="method" value="add">
-        <table border="0" align="center" width="30%">
-            <tr>
-                <td width="10%">Barcode</td>
-                <td width="20%">
-                    <input type="text" name="barcode"/>
-                </td>
-            </tr>
-            <tr>
-                <td>Name</td>
-                <td>
-                    <input type="text" name="name"/>
-                </td>
-            </tr>
-            <tr>
-                <td>Units</td>
-                <td>
-                    <input type="text" name="units"/>
-                </td>
-            </tr>
-            <tr>
-                <td>PurchasePrice</td>
-                <td>
-                    <input type="text" name="purchasePrice"/>
-                </td>
-            </tr>
-            <tr>
-                <td>SalePrice</td>
-                <td>
-                    <input type="text" name="salePrice"/>
-                </td>
-            </tr>
-            <tr>
-                <td>Inventory</td>
-                <td>
-                    <input type="text" name="inventory"/>
-                </td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>
-                    <input type="submit" name="submit">
-                    <input type="reset" name="submit">
-                </td>
-            </tr>
-        </table>
+        <div id="add">
+            <input type="text" name="barcode" required="required" placeholder="Barcode" /><br/>
+            <input type="text" name="name" required="required" placeholder="Name"/><br/>
+            <input type="text" name="units" required="required" placeholder="Units"/><br/>
+            <input type="text" name="purchasePrice" required="required" placeholder="PurchasePrice"/><br/>
+            <input type="text" name="salePrice" required="required" placeholder="SalePrice" /><br/>
+            <input type="text" name="inventory" required="required" placeholder="Inventory"/><br/>
+            <input class="button" type="submit" name="submit">
+            <input class="button" type="reset" name="reset">
+        </div>
     </form>
 </body>
 </html>
