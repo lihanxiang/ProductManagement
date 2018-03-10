@@ -9,58 +9,25 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="css/edit.css">
     <title>Edit Product</title>
 </head>
 <body>
+    <br><br>
     <h3 align="center">Edit Product</h3>
     <form  action="<c:url value="/ProductServlet"/> " method="post">
         <input type="hidden" name="method" value="edit"/>
         <input type="hidden" name="id" value="${product.id}">
-        <table border="0" align="center" width="30%">
-            <tr>
-                <td width="10%">Barcode</td>
-                <td width="20%">
-                    <input type="text" name="barcode" value="${product.barcode}"/>
-                </td>
-            </tr>
-            <tr>
-                <td>Name</td>
-                <td>
-                    <input type="text" name="name" value="${product.name}"/>
-                </td>
-            </tr>
-            <tr>
-                <td>Units</td>
-                <td>
-                    <input type="text" name="units" value="${product.units}"/>
-                </td>
-            </tr>
-            <tr>
-                <td>PurchasePrice</td>
-                <td>
-                    <input type="text" name="purchasePrice" value="${product.purchasePrice}"/>
-                </td>
-            </tr>
-            <tr>
-                <td>SalePrice</td>
-                <td>
-                    <input type="text" name="salePrice" value="${product.salePrice}"/>
-                </td>
-            </tr>
-            <tr>
-                <td>Inventory</td>
-                <td>
-                    <input type="text" name="inventory" value="${product.inventory}"/>
-                </td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>
-                    <input type="submit" name="submit"/>
-                    <input type="reset" name="reset"/>
-                </td>
-            </tr>
-        </table>
+        <div id="edit">
+            <input type="text" name="barcode" required="required" placeholder="Barcode" value="${product.barcode}"/>
+            <input type="text" name="name" required="required" placeholder="Name" value="${product.name}"/>
+            <input type="text" name="units" required="required" placeholder="Units" value="${product.units}"/>
+            <input type="text" name="purchasePrice" required="required" placeholder="PurchasePrice" value="${product.purchasePrice}"/>
+            <input type="text" name="salePrice" required="required" placeholder="SalePrice" value="${product.salePrice}"/>
+            <input type="text" name="inventory" required="required" placeholder="Inventory" value="${product.inventory}"/>
+            <input class="button" type="submit" name="submit"/>
+            <input class="button" type="reset" name="reset"/>
+        </div>
     </form>
 </body>
 </html>
