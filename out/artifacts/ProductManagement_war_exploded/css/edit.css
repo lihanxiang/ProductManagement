@@ -1,0 +1,35 @@
+#edit{
+    position:absolute;
+    top:20%;
+    left:40%;
+    width: 20%;
+    height: 50%;
+    border-radius: 6px;
+}
+.button{
+    letter-spacing: 1px;
+    width: 70px;
+    height: 30px;
+    display: block;
+    background-color: white;
+    border: 2px solid #696969;
+    color: black;
+    text-align:center;
+    font-size: 15px;
+    border-radius: 5px;
+    float:left;
+    margin:5px;
+    transition-duration: 0.5s;
+}
+.button:hover{
+    background-color:#696969;
+}
+input{
+    width: 250px;
+    height: 25px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: black;
+    border-radius: 4px;
+    background-color: #CDC9C9;
+}
