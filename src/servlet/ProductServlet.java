@@ -24,6 +24,7 @@ public class ProductServlet extends BaseServlet{
 
     public String add(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException{
 
+        request.setCharacterEncoding("utf-8");
         //将请求参数和Product进行Mapping
         Product product = CommonUtils.toBean(request.getParameterMap(), Product.class);
         product.setId(CommonUtils.uuid());      //随机生成ID
@@ -35,6 +36,7 @@ public class ProductServlet extends BaseServlet{
     }
 
     public String delete(HttpServletRequest request, HttpServletResponse response)throws IOException, ServletException{
+
         //得到要删除的商品的ID
         String id = request.getParameter("id");
         productService.delete(id);
@@ -96,6 +98,7 @@ public class ProductServlet extends BaseServlet{
 
     //显示当前的所有商品信息
     public String showAll(HttpServletRequest request, HttpServletResponse response)throws IOException, ServletException{
+        request.setCharacterEncoding("utf-8");
         int pageCode = getPageCode(request);
         int pageRecord = 10;        //每页10项记录
 
@@ -112,6 +115,8 @@ public class ProductServlet extends BaseServlet{
       以及MySQL的编码方式为"utf-8",否则会有乱码
      */
     public String query(HttpServletRequest request, HttpServletResponse response)throws ServletException, IOException{
+        response.setCharacterEncoding("utf-8");
+        request.setCharacterEncoding("utf-8");
         //得到请求参数，进行mapping
         Product product = CommonUtils.toBean(request.getParameterMap(), Product.class);
 
