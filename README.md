@@ -5,7 +5,7 @@
 #### 后有中文翻译
 #### 详情请见：
 
-#### [商品信息系统介绍（简书）](https://www.jianshu.com/p/737effb5ecc8)
+#### [商品信息系统介绍（个人博客）](http://hxblog.site/2018/04/16/%E7%AE%80%E6%98%93%E5%95%86%E5%93%81%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-%E9%A6%96%E4%B8%AAWeb%E9%A1%B9%E7%9B%AE/)
 #### [商品信息系统介绍（博客园）](http://www.cnblogs.com/lihanxiang/p/8446820.html)
 
 ## Version0.1
