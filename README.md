@@ -88,8 +88,6 @@
 
 ![](http://upload-images.jianshu.io/upload_images/3426615-57ab75c1c170884b.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-put your mouse on the botton, don't be too surprise!
-
 ***
 
 # 商品信息管理系统
@@ -162,7 +160,5 @@ put your mouse on the botton, don't be too surprise!
 ### 改进用户界面
 
 ![](http://upload-images.jianshu.io/upload_images/3426615-57ab75c1c170884b.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-鼠标悬停在按钮上有惊喜！
 
 ### 项目已完结
