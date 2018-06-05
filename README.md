@@ -142,8 +142,8 @@
 
 <br/>5. 如何使用
 > 1.Clone or download project [https://github.com/lihanxiang/ProductManagement.git](https://github.com/lihanxiang/ProductManagement.git)
-><br/>2.在IDEA中打开项目,配置web项目信息（科学上网）
-><br/>3.部署到Tomcat（科学上网）
+><br/>2.在IDEA中打开项目,配置web项目信息[Issues#1](https://github.com/lihanxiang/p-m/issues/1)
+><br/>3.部署到Tomcat（科学上网）[Issues#1](https://github.com/lihanxiang/p-m/issues/1)
 ><br/>4.Run, 打开浏览器并输入地址： **localhost:8080**
 
 <br/>6. 功能介绍
