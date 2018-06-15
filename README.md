@@ -1,6 +1,6 @@
 # What is the ProductManagement?
 
-## A simple product management system can do some basic things
+## A simple product management system which can do some basic things
 
 #### [中文说明](https://github.com/lihanxiang/p-m/blob/master/README(cn).md)
 
