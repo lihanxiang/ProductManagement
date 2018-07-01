@@ -4,8 +4,6 @@ import dao.ProductDao;
 import page.PageBean;
 import product.Product;
 
-import java.io.UnsupportedEncodingException;
-
 /*ProductService是为了调用ProductDao中已
   定义的接口而设计的，并被ProductServlet所用
  */
@@ -33,7 +31,7 @@ public class ProductService {
         return productDao.showAll(pageCode, pageRecord);
     }
 
-    public PageBean<Product> query(Product product, int pageCode, int pageRecord)throws UnsupportedEncodingException{
+    public PageBean<Product> query(Product product, int pageCode, int pageRecord){
         return productDao.query(product, pageCode, pageRecord);
     }
 }

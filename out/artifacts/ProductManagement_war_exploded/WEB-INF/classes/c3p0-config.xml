@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <c3p0-config>
     <default-config>
-        <property name="jdbcUrl">jdbc:mysql://localhost:3306/请输入你的数据库名称</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/pm</property>
         <property name="driverClass">com.mysql.jdbc.Driver</property>
-        <property name="user">请输入你的用户名称</property>
-        <property name="password">请输入你的用户密码</property>
+        <property name="user">root</property>
+        <property name="password">3865933</property>
         <property name="acquireIncrement">5</property>
         <property name="initialPoolSize">30</property>
         <property name="maxPoolSize">30</property>

@@ -88,7 +88,7 @@ public class ProductServlet extends BaseServlet{
         String servletPath = request.getServletPath();
         String queryString = request.getQueryString();
 
-        //queryString为查询字符串,需要去掉页码信息部分
+        //queryString为查询字符串
         if (queryString.contains("&pageCode=")) {
             int index = queryString.lastIndexOf("&pageCode=");
             queryString = queryString.substring(0, index);
@@ -115,7 +115,6 @@ public class ProductServlet extends BaseServlet{
       以及MySQL的编码方式为"utf-8",否则会有乱码
      */
     public String query(HttpServletRequest request, HttpServletResponse response)throws ServletException, IOException{
-        response.setCharacterEncoding("utf-8");
         request.setCharacterEncoding("utf-8");
         //得到请求参数，进行mapping
         Product product = CommonUtils.toBean(request.getParameterMap(), Product.class);

@@ -1,20 +1,18 @@
 package dao;
 
 import cn.itcast.jdbc.TxQueryRunner;
+import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
-import product.Product;
 import page.PageBean;
-import org.apache.commons.dbutils.QueryRunner;
-
-import java.io.UnsupportedEncodingException;
+import product.Product;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-/*ProductDao类是为了进行数据库操作
- （添加，删除，编辑，查询）而设计的
+/* ProductDao类是为了进行数据库操作
+ *（添加，删除，编辑，查询）而设计的
  */
 
 public class ProductDao {
@@ -100,7 +98,7 @@ public class ProductDao {
         }
     }
 
-    public PageBean<Product> query(Product product, int pageCode, int pageRecord) throws UnsupportedEncodingException{
+    public PageBean<Product> query(Product product, int pageCode, int pageRecord){
         //query功能采用模糊查询的方式，只需输入多个信息中的一个，
         //甚至不需要这个信息的全部，就能查询到所需信息。
         //例如查找名为xx的商品，只需输入x（不是全名）就能查询到xx商品。
