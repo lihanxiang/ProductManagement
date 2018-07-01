@@ -12,6 +12,10 @@
 > MySql 基本用法（增删改查）<br>
 > MVC 基础概念（Model-View-Controller）
 
+### 思维导图
+
+![](http://upload-images.jianshu.io/upload_images/3426615-cfa3d4b11fc240e8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 ### 自吹一波
 
 这个项目应该是最符合新手的项目，它只有一张数据表，前端页面也不复杂，后台也只有一个控制器，业务逻辑也都是最常规的增删改查，如果在刚入门 Java Web 时能够完整做出这一个项目，相信会对极大增加自信心
