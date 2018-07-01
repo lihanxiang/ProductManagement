@@ -8,8 +8,8 @@
 
 ### 在此之前需要学习的内容，不必一次学习太多，结合项目一起学习才能高效：
 
-> Servlet、JSP 基础知识
-> MySql 基本用法（增删改查）
+> Servlet、JSP 基础知识<br>
+> MySql 基本用法（增删改查）<br>
 > MVC 基础概念（Model-View-Controller）
 
 ### 自吹一波
@@ -23,40 +23,40 @@
 ## 版本 0.1
 
 ### 项目结构：
-> Servlet + JSP + MySQL
+> Servlet + JSP + MySQL<br>
 > MVC 模式
 
 ### 能做些什么：
 
-> 添加商品信息
-> 编辑商品信息
-> 删除商品信息
-> 显示所有商品信息
-> 模糊查找商品信息
+> 添加商品信息<br>
+> 编辑商品信息<br>
+> 删除商品信息<br>
+> 显示所有商品信息<br>
+> 模糊查找商品信息<br>
 
 ### 准备工作：
 
 #### 1. 建包
 
-> dao
-> demo
-> page
-> product
-> service
-> servlet
+> dao<br>
+> demo<br>
+> page<br>
+> product<br>
+> service<br>
+> servlet<br>
 
 #### 2. 导入 JAR 文件
 
-> c3p0-0.9.5.2
-> commons-beanutils-1.9.3
-> commons-collections-3.2.2
-> commons-dbutils-1.7
-> commons-logging-1.2
-> itcast-tools-1.4
-> jsp-api 
-> jstl-1.2
-> mchange-commons-java-0.2.11
-> mysql-connector-java-5.0.8-bin
+> c3p0-0.9.5.2<br>
+> commons-beanutils-1.9.3<br>
+> commons-collections-3.2.2<br>
+> commons-dbutils-1.7<br>
+> commons-logging-1.2<br>
+> itcast-tools-1.4<br>
+> jsp-api<br>
+> jstl-1.2<br>
+> mchange-commons-java-0.2.11<br>
+> mysql-connector-java-5.0.8-bin<br>
 > servlet-api
 
 #### 3. 建表
