@@ -4,7 +4,7 @@
 
 #### [商品信息系统介绍（个人博客）](http://hxblog.site/2018/04/16/%E7%AE%80%E6%98%93%E5%95%86%E5%93%81%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-%E9%A6%96%E4%B8%AAWeb%E9%A1%B9%E7%9B%AE/)
 
-由于是初学时的首个 Web 项目，所以在项目开始之前曾经学习过 [@codingXiaxw/CustomerManagement](https://github.com/codingXiaxw/CustomerManagement) 这个项目，编程风格可能有一点类似
+这是我初学 Java Web 时的首个 Web 项目
 
 ### 在此之前需要学习的内容，不必一次学习太多，结合项目一起学习才能高效：
 
