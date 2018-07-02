@@ -4,7 +4,7 @@
 
 #### 这里有[中文说明](https://github.com/lihanxiang/p-m/blob/master/README(cn).md)
 
-It's my first Web project, so, before I do this, I learn something from [@codingXiaxw/CustomerManagement](https://github.com/codingXiaxw/CustomerManagement), so the style of program may have some similarity
+This is my first Web project
 
 ### Before you do this project, there have something you need to learn first
 
