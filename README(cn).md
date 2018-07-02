@@ -137,7 +137,7 @@ public class PageBean<Object> {
 <?xml version="1.0" encoding="UTF-8" ?>
 <c3p0-config>
     <default-config>
-        <property name="jdbcUrl">jdbc:mysql://localhost:3306/你的数据表的名字</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/你的数据库的名字</property>
         <property name="driverClass">com.mysql.jdbc.Driver</property>
         <property name="user">用户名</property>
         <property name="password">密码</property>
