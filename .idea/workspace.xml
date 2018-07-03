@@ -6,19 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fabc1a9a-48b3-45af-a6e4-6ec8bc074e0a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mybatis-3.4.6.jar" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ProductManagement_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ProductManagement_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProductManagement_war_exploded/WEB-INF/classes/c3p0-config.xml" afterPath="$PROJECT_DIR$/out/artifacts/ProductManagement_war_exploded/WEB-INF/classes/c3p0-config.xml" />
-      <change beforePath="$PROJECT_DIR$/product_table.txt" afterPath="$PROJECT_DIR$/product_table.txt" />
-      <change beforePath="$PROJECT_DIR$/src/c3p0-config.xml" afterPath="$PROJECT_DIR$/src/c3p0-config.xml" />
-      <change beforePath="$PROJECT_DIR$/src/dao/ProductDao.java" afterPath="$PROJECT_DIR$/src/dao/ProductDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/demo/Demo.java" afterPath="$PROJECT_DIR$/src/demo/Demo.java" />
-      <change beforePath="$PROJECT_DIR$/src/service/ProductService.java" afterPath="$PROJECT_DIR$/src/service/ProductService.java" />
-      <change beforePath="$PROJECT_DIR$/src/servlet/ProductServlet.java" afterPath="$PROJECT_DIR$/src/servlet/ProductServlet.java" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/c3p0-config.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/c3p0-config.xml" />
-    </list>
+    <list default="true" id="fabc1a9a-48b3-45af-a6e4-6ec8bc074e0a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -173,7 +161,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
@@ -601,12 +589,12 @@
       <workItem from="1528969944106" duration="16000" />
       <workItem from="1530359699149" duration="2531000" />
       <workItem from="1530401068321" duration="3574000" />
-      <workItem from="1530424719954" duration="2133000" />
+      <workItem from="1530424719954" duration="2730000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137459000" />
+    <option name="totallyTimeSpent" value="138056000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -618,7 +606,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1098" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -916,11 +904,11 @@
         <state relative-caret-position="572">
           <caret line="34" column="63" lean-forward="false" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#508#509#0" expanded="false" />
+            <element signature="e#550#551#0" expanded="false" />
+            <element signature="e#619#620#0" expanded="false" />
+            <element signature="e#682#683#0" expanded="false" />
           </folding>
         </state>
       </provider>
