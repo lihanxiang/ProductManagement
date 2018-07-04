@@ -85,7 +85,8 @@ CREATE TABLE product (
 > 1.Clone 或 download 项目 [https://github.com/lihanxiang/ProductManagement.git](https://github.com/lihanxiang/ProductManagement.git)
 ><br/>2.在IDEA中打开项目,配置web项目信息 [Issues#1](https://github.com/lihanxiang/p-m/issues/1)
 ><br/>3.部署到Tomcat [Issues#1](https://github.com/lihanxiang/p-m/issues/1)
-><br/>4.Run, 打开浏览器并输入地址： **localhost:8080**
+><br/>4.修改 c3p0-config.xml 文件中的数据库信息，确保能连接数据库
+><br/>5.Run, 打开浏览器并输入地址： **localhost:8080**
 
 ### 开发过程
 
