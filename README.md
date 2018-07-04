@@ -85,7 +85,8 @@ CREATE TABLE product (
 > 1.Clone or download project [https://github.com/lihanxiang/ProductManagement.git](https://github.com/lihanxiang/ProductManagement.git)
 ><br/>2.configure the environment of web project (only have chinese tutorial [Issues#1](https://github.com/lihanxiang/p-m/issues/1))
 ><br/>3.Deploy it to tomcat [Issues#1](https://github.com/lihanxiang/p-m/issues/1)
-><br/>4.Run, open browser and enter： **localhost:8080**
+><br/>4.Change the database information in c3p0-config.xml 
+><br/>5.Run, open browser and enter： **localhost:8080**
 
 ### Development process
 
