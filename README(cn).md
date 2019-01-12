@@ -2,7 +2,7 @@
 
 ## 一个简易的能执行基本操作的管理系统（首个web项目）
 
-#### [商品信息系统介绍（个人博客）](http://hxblog.site/2018/04/16/%E7%AE%80%E6%98%93%E5%95%86%E5%93%81%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-%E9%A6%96%E4%B8%AAWeb%E9%A1%B9%E7%9B%AE/)
+#### [商品信息系统介绍（个人博客）](https://lihanxiang.github.io/2018/04/16/%E7%AE%80%E6%98%93%E5%95%86%E5%93%81%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-%E9%A6%96%E4%B8%AAWeb%E9%A1%B9%E7%9B%AE/)
 
 这是我初学 Java Web 时的首个 Web 项目
 
